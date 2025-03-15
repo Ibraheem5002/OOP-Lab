@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-class Vehicle {
+class Vehicle
+{
 public:
     string Make;
     string Model;
@@ -22,7 +23,8 @@ public:
     }
 };
 
-class Car : public Vehicle {
+class Car : public Vehicle
+{
 public:
     int Doors;
     double FuelEfficiency;
@@ -43,7 +45,8 @@ public:
     }
 };
 
-class ElectricCar : public Car {
+class ElectricCar : public Car
+{
 public:
     int BatteryLife;
 
